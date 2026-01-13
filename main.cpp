@@ -1,8 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "Tensor.h"
-// Asegúrate de que Tensor.h incluye "tensortransform.h"
-// o inclúyelo aquí si es necesario: #include "tensortransform.h"
+
 
 using namespace std;
 
