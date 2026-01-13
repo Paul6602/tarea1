@@ -16,7 +16,7 @@ int main() {
     Tensor layer1 = matmul(flattened, W1);
 
 
-    Tensor b1 = Tensor::zeros({1000, 100});
+    Tensor b1 = Tensor::random({1000, 100},0,8);
     layer1 = layer1 + b1;
 
     ReLU relu;
